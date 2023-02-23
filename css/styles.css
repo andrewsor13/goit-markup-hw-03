@@ -24,9 +24,8 @@ h2 {
 
 .page-header {
   display: flex;
-  justify-content: space-between;
   border-bottom: 1px solid #ECECEC;
-  padding: 32px 225px 32px 215px;
+  height: 80px;
   align-items: center;
   flex-direction: row;
 }
@@ -190,8 +189,8 @@ h2 {
 .hero-section {
   background: #2F303A;
   box-sizing: border-box;
-  padding: 200px 452px 200px 452px;
   display: flex;
+  height: 600px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -238,6 +237,7 @@ h2 {
 .team-images,
 .studio-images {
   display: flex;
+  justify-content: center;
 }
 
 .studio-images,
