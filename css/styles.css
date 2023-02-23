@@ -358,6 +358,10 @@ footer {
   text-decoration: none;
 }
 
+.contact-list-footer:hover {
+  color: var(--logo-color);
+}
+
 #location {
   color: #FFFFFF;
 }
