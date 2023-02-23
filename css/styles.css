@@ -317,9 +317,10 @@ h2 {
 footer {
   background: #2F303A;
   width: 100%;
-  padding-left: 215px;
-  padding-bottom: 48px;
-  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 251px;
 }
 
 .contact-list-footer {
@@ -327,15 +328,13 @@ footer {
   color: #757575;
   text-decoration: none;
   font-style: normal;
-  margin-bottom: 12px;
 }
 
 .footer-list {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
   margin-top: 28px;
-}
-
-.footer-list li {
-  margin-bottom: 12px;
 }
 
 .footer-logo {
