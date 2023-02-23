@@ -189,13 +189,13 @@ h2 {
 
 .hero-section {
   background: #2F303A;
-  width: 1600px;
   box-sizing: border-box;
   padding: 200px 452px 200px 452px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .hero-section h1 {
@@ -246,6 +246,10 @@ h2 {
   gap: 30px;
 }
 
+.team-images {
+  justify-content: center;
+}
+
 .activities-title {
   margin-top: 94px;
 }
@@ -290,6 +294,7 @@ h2 {
 
 .our-team-section {
   background: #F5F4FA;
+  width: 100%;
 }
 
 .team-images-item h3 {
@@ -311,8 +316,7 @@ h2 {
 
 footer {
   background: #2F303A;
-  position: absolute;
-  width: 1600px;
+  width: 100%;
   padding-left: 215px;
   padding-bottom: 48px;
   padding-top: 60px;
